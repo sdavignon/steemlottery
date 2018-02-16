@@ -12,7 +12,7 @@ const initialState = {
   trendingTopics: [],
   rewardFund: {},
   bannerClosed: false,
-  appUrl: 'https://steemclassifieds.herokuapp.com',
+  appUrl: 'https://steemlottery.com',
   usedLocale: 'en',
   cryptosPriceHistory: {},
 };
