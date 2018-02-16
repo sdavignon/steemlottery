@@ -49,7 +49,7 @@ export const getTrendingTopics = () => (dispatch, getState, { steemAPI }) => {
   dispatch({
     type: GET_TRENDING_TOPICS,
     payload: {
-      promise: steemAPI.sendAsync('get_trending_tags', [undefined, 50]).then(result =>
+      promise: steemAPI.sendAsync('get_trending_tags', ['steemlottery', 50]).then(result =>
         Object.values(result)
           .map(tag => tag.name)
           .filter(tag => tag !== ''),
