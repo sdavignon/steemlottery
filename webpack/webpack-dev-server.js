@@ -26,6 +26,7 @@ module.exports = {
         STEEMCONNECT_HOST: JSON.stringify(
           process.env.STEEMCONNECT_HOST || 'https://steemconnect.com',
         ),
+		LOCKED_CATEGORY: JSON.stringify(process.env.LOCKED_CATEGORY || 'steemlottery'),
         STEEMJS_URL: JSON.stringify(process.env.STEEMJS_URL || 'https://api.steemit.com'),
         IS_BROWSER: JSON.stringify(true),
         PUSHPAD_PROJECT_ID: process.env.PUSHPAD_PROJECT_ID,
