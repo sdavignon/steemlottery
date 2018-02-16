@@ -59,7 +59,7 @@ class SubFeed extends React.Component {
 
   componentDidMount() {
     const { authenticated, loaded, user, match, feed, posts } = this.props;
-    const category = match.params.category;
+    const category = match.params.category || 'steemlottery';
     let content = [];
 
     if (!loaded && Cookie.get('access_token')) return;
