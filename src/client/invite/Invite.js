@@ -85,7 +85,7 @@ export default class Invite extends React.Component {
               <p className="Invite__description">
                 <FormattedMessage
                   id="invite_info"
-                  defaultMessage="Onboard new users on SteemLottery.com today using the link below and get 10% of their rewards for 30 days."
+                  defaultMessage="Onboard new users on Busy.org today using the link below and get 10% of their rewards for 30 days."
                 />
               </p>
               <div className="Invite__input-container">
@@ -115,7 +115,7 @@ export default class Invite extends React.Component {
                   text={intl.formatMessage(
                     {
                       id: 'invite_share',
-                      defaultMessage: 'Join me today on SteemClassifieds.com and get rewarded to post for sale {link}',
+                      defaultMessage: 'Join me today on SteemLottery.com and get rewarded to play lotto with STEEM {link}',
                     },
                     {
                       link: this.state.inviteURL,

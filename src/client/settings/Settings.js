@@ -283,7 +283,7 @@ export default class Settings extends React.Component {
                   <p>
                     <FormattedMessage
                       id="language_info"
-                      defaultMessage="What language do you want to use on Steemclassifieds?"
+                      defaultMessage="What language do you want to use on SteemLottery?"
                     />
                   </p>
                   <Select
@@ -339,22 +339,7 @@ export default class Settings extends React.Component {
                     </Checkbox>
                   </div>
                 </div>
-                <div className="Settings__section">
-                  <h3>
-                    <FormattedMessage id="use_beta" defaultMessage="Use Steemclassifieds" />
-                  </h3>
-                  <p>
-                    <FormattedMessage
-                      id="use_beta_details"
-                      defaultMessage="You can enable this option to use Steemclassifieds by default."
-                    />
-                  </p>
-                  <div className="Settings__section__checkbox">
-                    <Checkbox name="use_beta" checked={useBeta} onChange={this.handleUseBetaChange}>
-                      <FormattedMessage id="use_beta" defaultMessage="Use Steemclassifieds" />
-                    </Checkbox>
-                  </div>
-                </div>
+                
                 <Action
                   primary
                   loading={loading}

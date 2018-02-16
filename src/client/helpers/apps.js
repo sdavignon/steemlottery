@@ -15,6 +15,5 @@ export default {
   steemjs: 'Steem.js',
   strimi: 'Strimi',
   steemclassifieds: 'SteemClassifieds',
-  steemkitties: 'SteemKitties',
   steemlottery: 'SteemLottery'
 };
